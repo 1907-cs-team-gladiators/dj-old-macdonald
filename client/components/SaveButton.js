@@ -49,7 +49,9 @@ class SaveButton extends Component {
         >
           <img
             className="disabled-button-image"
-            src="https://img.icons8.com/material-rounded/23/000000/save.png"
+            src="https://image.flaticon.com/icons/svg/60/60959.svg"
+            width="20"
+            height="20"
           />
         </button>
         Save
@@ -57,7 +59,11 @@ class SaveButton extends Component {
     ) : (
       <div className="icontext">
         <button type="submit" onClick={this.handleSubmit} className="button">
-          <img src="https://img.icons8.com/material-rounded/28/000000/save.png" />
+          <img
+            src="https://image.flaticon.com/icons/svg/60/60959.svg"
+            width="20"
+            height="20"
+          />
         </button>
         Save
       </div>
